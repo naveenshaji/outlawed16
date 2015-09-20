@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OUTLAWED</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+    <!--Icon Fonts-->
+    <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css" />
+    <link rel="stylesheet" media="screen" href="assets/fonts/flaticons/flaticon.css" />
+
+    <!-- Extras -->
+    <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="assets/extras/text-rotator.css">
+
+    <!-- jQuery Load -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/jquery.knob.js"></script>
+    <script src="assets/js/jquery.ccountdown.js"></script>
+    <script src="assets/js/init.js"></script>
+    <!--[if lte IE 7]><script src="css/lte-ie7.js"></script><![endif]-->
+
+    <!-- LOADER -->
+    <script src="assets/js/jquery.queryloader2.min.js"></script>
+    <script>
+        function hidePreLoader() {
+            document.getElementById("hiderp").style.visibility = "visible";
+
+        }
+
+        $(document).ready(function () {
+            $("body").queryLoader2({
+                barColor: "#FFFFFF",
+                backgroundColor: "#3d566e",
+                percentage: true,
+                barHeight: 30,
+                completeAnimation: "grow",
+                onLoadComplete: hidePreLoader
+            });
+        });
+    </script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+              <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+              <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-offset="20" data-target="#navbar">
+
+    <divhider id="hiderp" style="visibility: hidden">
+
+
+        <section id="home">
+            <!-- Nav Menu Section -->
+            <div class="logo-menu">
+                <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="200">
+                    <div class="container">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header col-md-2">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                            <a class="navbar-brand" href="index.html#home"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbar">
+                            <ul class="nav navbar-nav animated-nav col-md-9">
+                                <li class="active">
+                                    <a href="index.html#home" data-hover=""></a>
+                                </li>
+
+                                <!-- THIS IS THE NAV BAR AT THE TOP. IF YOU ADD A TAB, ADD AN ENTR HERE
+            		LIKE THIS <li><a href="#SECTIONID" data-hover="TABNAME">TABNAME</a></li>
+             -->
+
+                                <li><a href="index.html#about" data-hover="About">About</a>
+                                </li>
+                                <li><a href="index.html#events" data-hover="Events">Events</a>
+                                </li>
+                                <li><a href="index.html#schedule" data-hover="Schedule">Schedule</a>
+                                </li>
+                                <li><a href="index.html#starnites" data-hover="StarNites">StarNites</a>
+                                </li>
+                                <li><a href="index.html#register" data-hover="Register">Register</a>
+                                </li>
+                                <li><a href="index.html#sponsors" data-hover="Sponsors">Sponsors</a>
+                                </li>
+                                <li><a href="index.html#team" data-hover="Team">Team</a>
+                                </li>
+                                <li><a href="index.html#contact" data-hover="Contact">Contact</a>
+                                </li>
+
+                                <!-- TABS AREA END -->
+
+                            </ul>
+                            <div class="col-md-1 visible-lg"> <span class="to-top pull-right"><a href="index.html#home"><i class="fa fa-angle-up fa-2x"></i></a></span> <span class="to-bottom pull-right"><a href="index.html#about"><i class="fa fa-angle-down fa-2x floating"></i></a></span> </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- Nav Menu Section End -->
+
+            <!-- Main Slider Section -->
+
+            <div id="carousel-area">
+                <div id="carousel-slider" class="carousel slide" data-interval="5000">
+                    <div class="carousel-inner">
+
+                        <!-- HOME FIRST SLIDE STARTS HERE -->
+                        <div class="item active" style="background-image: url(assets/img/slider/bg-1.jpg);">
+                            <!-- YOU CAN CHANGE THE BACKGROUND IMAGE OF THIS SLIDE HERE -->
+                            <div class="carousel-caption">
+                                <!-- <h1 class="animated-late fadeInDown" style="font-family:garamond;">
+                  <x id="red">OUT</x>
+                  LAWED</h1>
+    <h2 class="animated-late fadeInLeft delay-1" style="color:#3333ff">February, 2015<br>
+                  <br>
+                </h2> -->
+                                <!--COUNTDOWN TIMER - DONT EDIT THIS PART -->
+                                <!-- <div class="ccounter">
+                          
+                          <input class="knob days" data-width="100" data-skin="tron" data-min="0" data-max="365" data-displayPrevious=true data-fgColor="#ecf0f1" data-readOnly="true" value="1">
+                          <input class="knob hour" data-width="100" data-skin="tron" data-min="0" data-max="24" data-displayPrevious=true data-fgColor="#ecf0f1" data-readOnly="true" value="1">
+                          <input class="knob minute" data-width="100" data-skin="tron" data-min="0" data-max="60" data-displayPrevious=true data-fgColor="#ecf0f1" data-readOnly="true" value="1">
+                          <input class="knob second" data-width="100" data-skin="tron" data-min="0" data-max="60" data-displayPrevious=true data-fgColor="#ecf0f1" data-readOnly="true" value="0" data-bgcolor="#eee">
+                        </div> -->
+
+                            </div>
+                        </div>
+
+                        <!-- FIRST SLIDE END SECOND SLIDE START -->
+
+                        <div class="item feed" style="background-image: url(assets/img/slider/bg-2.jpg);">
+                            <div class="carousel-caption feed">
+                                <h1 class="animated-late fadeInDown"></h1>
+                                <h2 class="animated-late fadeInLeft delay-1">
+<marquee behavior="scroll" direction="up" scrollamount="3" height="200" width="750" onmouseover="this.stop();" onmouseout="this.start();">
+<div class="text-center" id="newsfeed"> 
+              <!-- NEWS FEED TEXT --- EDIT THE NEWS FEED HERE --> 
+              
+			  <a href="https://www.youtube.com/watch?v=SFzHm_V4TGI" target="_blank" style="color:#f6b958">Outlawed '15 After Movie</a> <br>
+              <a href="https://www.facebook.com/media/set/?set=a.605942349506848.1073741832.127928993974855&type=3" target="_blank" style="color:#f6b958">Outlawed '15 Revisited</a> <br>
+              <a href="http://www.telegraphindia.com/1140213/jsp/t2/story_17930662.jsp" target="_blank" style="color:#f6b958">Outlawed in the News</a> <br>
+                            
+              <!---NEWS FEED TEXT AREA END -->
+               </div>                 
+              </marquee>
+                          <br><br>
+                        </h2>
+                                <br>
+                                <!--THE BUTTONS BELOW THE NEWS FEED -- YOU CAN EDIT THE TEXT HERE. THE LINK CAN BE EDITED INSIDE href="here" THE ICON FOR A BUTTON CAN BE CHANGED BY CHANGING THE FONT AWESOME CODE. YOU CAN SEARCH FOR FONT AWESOME CODES ONLINE eg. fa fa-iconname -->
+
+                                <!--                                <a class="btn btn-border animated fadeInDown delay-1-5" href="http://nujsoutlawed.in/assets/download/outlawed_15_invitation_brochure" target="_blank"><i class="fa fa-download"></i> Invitation Brochure</a>-->
+                                <br>
+                                <a class="btn btn-border animated fadeInDown delay-1-5" href="https://www.facebook.com/nujsoutlawed" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+                                <a class="btn btn-border animated fadeInDown delay-1-5" href="https://www.youtube.com/channel/UCrgBTyJW5DKd0FpDusXwJzg" target="_blank"><i class="fa fa-youtube-square"></i> YouTube</a>
+                                <br>
+
+                                <!-- BUTTONS PART END -->
+
+                            </div>
+                        </div>
+                        <!-- NEWS FEED SLIDE END. THIRD SLIDE - COLLAGE STARTS -->
+
+                        <div class="item" style="background-image: url(assets/img/slider/collage.jpg);">
+                            <!-- THIS PICTURE SHOULD BE CHANGED TO YOUR COLLAGE PIC -->
+                            <div class="carousel-caption">
+                                <h1 class="animated-late fadeInDown">
+            <!-- YOU MAY ADD TEXT HERE -->
+            </h1>
+                                <h2 class="animated-late fadeInLeft delay-1">
+            <!-- OR HERE -->
+            </h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- THIRD SLIDE END -->
+                    <!-- SLIDE CONTROLS -- DONT EDIT -->
+                    <a class="left carousel-control animated fadeInLeft" href="index.html#carousel" data-slide="prev"><img src="assets/img/slider/btn-prev.png" alt="previuos button">
+                    </a>
+                    <a class="right carousel-control animated fadeInRight" href="index.html#carousel" data-slide="next"><img src="assets/img/slider/btn-next.png" alt="next button">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Slider Section End-->
+
+
+        <!-- About Section -->
+
+        <section id="about">
+            <div class="about-inner">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="section-title">About OUTLAWED</h1>
+                        <!--HEADING TEXT -->
+                        <h2 class="section-subtitle"></h2>
+                        <div class="col-md-6">
+                            <div id="carousel-about" class="carousel slide wow fadeInLeft" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators visible-lg">
+                                    <li data-target="#carousel-about" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-about" data-slide-to="1" class=""></li>
+                                </ol>
+
+                                <!-- Wrapper for slides -->
+
+                                <div class="carousel-inner">
+                                    <div class="item active"> <img src="assets/img/about/img1.jpg" alt="...">
+                                        <!-- THIS IS ONE OF THE TWO IMAGE SLIDES IN ABOUT SECTION -->
+                                        <div class="carousel-caption"> </div>
+                                    </div>
+                                    <div class="item"> <img src="assets/img/about/img2.jpg" alt="...">
+                                        <!-- THIS IS ONE OF THE TWO IMAGE SLIDES IN ABOUT SECTION -->
+                                        <div class="carousel-caption"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 wow fadeInRight" data-wow-delay=".5s">
+                            <!--ABOUT TEXT. THIS MAY BE EDITED AND CHANGED HERE -->
+                            <p align="justify"> Since its inception in 2006, Outlawed has steadily grown into one of the largest and most anticipated cultural fests not just among the Indian law schools but also among other undergraduate colleges in Eastern India. A wide assortment of events like the Great Kolkata Race, The Fashion Show, the Turncoat Debate, Chords of Fusion: Eastern and Western vocals and many more have drawn phenomenal participation year after year. This time, Outlawed 2016 promises to up the ante with the addition of brilliant new events. In the wintry evenings of the fest, students from across the country gather in festivity for concerts by the who’s who of the Indian music scene. Over the last couple of years, NUJS has had the pleasure of hosting bands like Indian Ocean, MIDIval Punditz Advaita, Junkyard Groove, Fire on Dawson, Raghu Dixit Project, Indus Creed, Dualist Inquiry, Agnee and Parikrama.
+                            </p>
+                            <!--ABOUT TEXT AREA END -->
+
+                        </div>
+                        <div class="col-md-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- About Section End -->
+
+        <!-- Events Section -->
+        <!-- NOTE ON EDITING ABOUT SECTION
+
+IMPORTANT: 
+	WHILE EDITING TEXT OF THIS SECTION, TWO EVENTS WHICH COME ON THE SAME ROW SHOULD HAVE THE SAME NUMBER OF LINES OF TEXT. IF ONE IS TOO SHORT, THEN ADD A <br>&nbsp; TO ADD A NEW LINE.
+    IF THIS IS NOT DONE, THE 2-COLUMN LAYOUT WILL GLITCH IN MOST LAYOUTS.
+
+-->
+        <div id="events">
+            <div class="events-inner">
+                <div class="events-container text-center">
+                    <div class="row">
+                        <div id="carousel-events" class="carousel slide" data-interval="20000">
+                            <div class="carousel-inner">
+
+                                <div class="active item">
+                                    <div class="container text-center">
+                                        <h1 class="rotate-text wow fadeInDown" data-wow-offset="50">Flagship Events</h1>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay=".8s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-music fa-3x"></i>
+                                                <h2>THE NUJS OPEN QUIZ</h2>
+                                                <p>Think you know it all? Prove it – Come, Quiz, and Conquer. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 35,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.1s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-female fa-3x"></i>
+                                                <h2>THE GREAT KOLKATA RACE</h2>
+                                                <p>Explore the City of Joy with your friends; Solve riddles, perform tasks and perform them fast. It’s the Amazing Race after all. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 30,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.3s">
+                                            <div class="why-item-text"> <i class="fa fa-play fa-3x"></i>
+                                                <h2>Dance Project</h2>
+                                                <p>The Group Dance. Form your troupe, find your rhythm and show us what you got! Battle it out with the best dance crews in India. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 32,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.5s">
+                                            <div class="why-item-text"> <i class="fa fa-male fa-3x"></i>
+                                                <h2>Spotlight</h2>
+                                                <p>The Stage Play. Let the creative juices flow and cook up a story that sets our hearts ablaze. All the world’s a stage. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 9,500</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.7s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-microphone fa-3x"></i>
+                                                <h2>Fashionista</h2>
+                                                <p>The Fashion Show. Glitz, Glamour and Camera! Be the talk of the town, walk the ramp, dazzle the outfits, burn the floor. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 9,500</div>-->
+                                            </div>
+                                        </div>
+                                        <!--
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.9s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-headphones fa-3x"></i>
+                                                <h2>BAROQUE</h2>
+                                                <p>the Western Vocals Solo. Music is to the soul what words are to the mind. Come express your soul, be heard.</p>
+                                                                                                <div id="prize">Prizes worth : Rs. 9,500</div>
+                                            </div>
+                                        </div>
+-->
+                                    </div>
+                                </div>
+
+
+                                <div class="item">
+                                    <div class="container text-center">
+                                        <h1 class="rotate-text wow fadeInDown" data-wow-offset="50">Cultural Events</h1>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay=".8s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-music fa-3x"></i>
+                                                <h2>The Dance Off</h2>
+                                                <p>If you think your dance group can take on any challenge on the dance floor, be it classical or hip-hop or just dancing to those Bollywood numbers, this is the battle for you! </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 35,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.1s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-female fa-3x"></i>
+                                                <h2>Footloose </h2>
+                                                <p>Pick the form, pick the music and dance yourself to glory.
+                                                    <br>
+                                                    <Br>
+                                                    <br>
+                                                </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 30,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.3s">
+                                            <div class="why-item-text"> <i class="fa fa-play fa-3x"></i>
+                                                <h2>60 Seconds to Fame</h2>
+                                                <p>Martin Luther King took 17 minutes, MJ took 5, Enrique needed 3, we’ll give you just '60 seconds'. Claim your fame! </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 32,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.5s">
+                                            <div class="why-item-text"> <i class="fa fa-male fa-3x"></i>
+                                                <h2>Chords of Fusion</h2>
+                                                <p>Music is to the soul what words are to the mind. Serenade a live audience with some soulful tunes of both, Eastern and Western music, in the culture capital of the country. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 9,500</div>-->
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="item">
+                                    <div class="container text-center">
+                                        <h1 class="rotate-text wow fadeInDown" data-wow-offset="50">Literary Events</h1>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-question fa-3x"></i>
+                                                <h2>Poetry Slam</h2>
+                                                <p>Daze the audience with your original work of poetry and get crowned the champion poet of OUTLAWED. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 19,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.1s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-gavel fa-3x"></i>
+                                                <h2>What is the Good Word</h2>
+                                                <p>Are you smart enough to crack the impossible combination of clues?
+                                                    <br>
+                                                    <br> </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 9,500</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.3s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-pencil fa-3x"></i>
+                                                <h2>Turn Coat Debate </h2>
+                                                <p> Become your own Devil’s Advocate! Commit the cardinal sin in the bible of debating, contradict yourself. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 6,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.5s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-clock-o fa-3x"></i>
+                                                <h2>JAM</h2>
+                                                <p>Just ‘a’ minute? What can you whip up in 'one' minute?</p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 4,000</div>-->
+                                            </div>
+                                        </div>
+                                        <!--
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.7s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-anchor fa-3x"></i>
+                                                <h2>WHAT'S THE GOOD WORD</h2>
+                                                <p>Are you smart enough to crack the impossible combination of clues?</p>
+                                                                                                <div id="prize">Prizes worth : Rs. 4,000</div>
+                                            </div>
+                                        </div>
+-->
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="container text-center">
+                                        <h1 class="rotate-text wow fadeInDown" data-wow-offset="50">Informal Events</h1>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="0.8s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-flag-checkered fa-3x"></i>
+                                                <h2>Mad Ads </h2>
+                                                <p>For ‘the Crazy Ones’ out there, come tickle our funny bones – 3 minutes is what you’ve got! </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 30,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.1s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-star fa-3x"></i>
+                                                <h2>Gangland - Graffiti </h2>
+                                                <p>For artists who feel the art in them is begging to come out but the cleanliness of the paper prevents them from coloring it. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 9,500</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.3s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-magic fa-3x"></i>
+                                                <h2>#thatChallenge</h2>
+                                                <p>Social media lovers, an event just for you; the most popular video wins! </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 4,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.5s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-camera fa-3x"></i>
+                                                <h2>NUJS Comedy Central </h2>
+                                                <p>For the likes of Jerry Seinfeld and Vir Das, stand up and make us laugh! </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 7,500</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.7s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-picture-o fa-3x"></i>
+                                                <h2>The Board Meet </h2>
+                                                <p>Let the ‘board’ games begin! </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 4,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.7s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-picture-o fa-3x"></i>
+                                                <h2>The Perfect Moment  </h2>
+                                                <p>The Photography Competition. Camera is your rifle and NUJS your hunting ground. Click and capture OUTLAWED. </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 4,000</div>-->
+                                            </div>
+                                        </div>
+                                        <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="1.7s" data-wow-offset="10">
+                                            <div class="why-item-text"> <i class="fa fa-picture-o fa-3x"></i>
+                                                <h2>Shipwrecked </h2>
+                                                <p>Are you worthy of the life jacket? </p>
+                                                <!--                                                <div id="prize">Prizes worth : Rs. 4,000</div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="item">
+                          <div class="container text-center">
+                <h1 class="rotate-text wow fadeInDown" data-wow-offset="50">Informal Events</h1>
+				<div class="why-item col-md-6 wow fadeInRight" data-wow-delay="0.7s" data-wow-offset="10">
+                              <div class="why-item-text"> <i class="fa fa-male fa-3x"></i>
+                    <h2>GET UP, STAND UP</h2>
+                    <p>StandUp Comedy. Ever been told that you’re a feminist, a racist or some such Russel Peters like adjective. Come, amuse and win.</p>
+                     <div id="prize">Prize money : Rs. 5000</div>
+                  </div>
+                            </div>
+                <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="0.9s" data-wow-offset="10">
+                              <div class="why-item-text"> <i class="fa fa-picture-o fa-3x"></i>
+                    <h2>GANGLAND</h2>
+                    <p>Graffiti. For artists who feel the art in them is begging to come out but the cleanliness of the paper prevents them from coloring it.</p>
+                     <div id="prize">Prizes worth : Rs. 4,000</div> 
+                  </div>
+                            </div>
+                <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="0.7s" data-wow-offset="10">
+                              <div class="why-item-text"> <i class="fa fa-barcode fa-3x"></i>
+                    <h2>AD-ZAP</h2>
+                    <p>If you’re the sort of person who could sell a man his own house - step right up.</p>
+                     <div id="prize">Prize money : Rs. 5000</div>
+                  </div>
+                            </div>
+                <div class="why-item col-md-6 wow fadeInRight" data-wow-delay="0.9s" data-wow-offset="10">
+                              <div class="why-item-text"> <i class="fa fa-anchor fa-3x"></i>
+                    <h2>SHIPWRECKED</h2>
+                    <p>The ship is sinking - and there is just one life jacket. Defend your right to live.</p>
+                     <div id="prize">Prize money : Rs. 5000</div> 
+                  </div>
+                            </div>
+                </div>
+                        </div> -->
+                            </div>
+                            <a class="left carousel-control animated fadeInLeft" href="index.html#carousel" data-slide="prev-events"><img src="assets/img/slider/btn-prev.png" alt="previous button">
+                            </a>
+                            <a class="right carousel-control animated fadeInRight" href="index.html#carousel" data-slide="next-events"><img src="assets/img/slider/btn-next.png" alt="next button">
+                            </a>
+                        </div>
+                        <div class="why-item-contact col-md-12 wow bounceIn" data-wow-offset="10">
+                            <br> <a href="assets/download/outlawed_15_official_rule_book.pdf" class="btn btn-lg btn-border"><i class="fa fa-download"></i>Download Rules Book</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Events Section End -->
+
+        <!--Schedule Section -->
+        <!-- READ UP ON BASIC HTML TABLES TO EDIT THIS PART -->
+
+        <section id="schedule">
+            <div id="schedule">
+                <div class="events-inner">
+                    <div class="events-container text-center">
+                        <div class="row">
+
+
+                            <div id="carousel-schedule" class="carousel slide" data-interval="20000">
+                                <div class="carousel-inner">
+
+
+
+                                    <div class="active item">
+                                        <div class="container text-center">
+                                            <h1 class="section-title">Schedule</h1>
+                                            <h2 class="section-subtitle">To be announced soon <!--day1--></h2>
+                                            <!--
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Event</th>
+                                                        <th>Time</th>
+                                                        <th>Venue</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Spotlight (Stage Play)</td>
+                                                        <td>2.00 PM - 6.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Gangland (Graffiti Competition)</td>
+                                                        <td>3.00 PM - 4.00 PM</td>
+                                                        <td>Pool of Justice</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>JAM (Just A Minute)</td>
+                                                        <td>4.00 PM - 5.00 PM</td>
+                                                        <td>Room No. 107</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>SREI presents Turncoat Debate</td>
+                                                        <td>5.00 PM - 6.00 PM</td>
+                                                        <td>Room No. 107</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Footlose (Solo Dance)</td>
+                                                        <td>8.00 PM - 9.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>StarNite - INDIAN OCEAN Live</td>
+                                                        <td>9.00 PM - 11.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>DJ Night Live</td>
+                                                        <td>11.00 PM – 1.00 AM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+-->
+                                        </div>
+                                    </div>
+
+
+
+                                    <div class="item">
+                                        <div class="container text-center">
+                                            <h1 class="section-title">Schedule</h1>
+                                            <h2 class="section-subtitle">To be announced soon</h2>
+                                            <!--
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Event</th>
+                                                        <th>Time</th>
+                                                        <th>Venue</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>The Great Kolkata Race</td>
+                                                        <td>1.00 PM - 6.00 PM</td>
+                                                        <td>Pool of Justice / Kolkata</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Word Quizzard</td>
+                                                        <td>2.00 PM - 4.00 PM</td>
+                                                        <td>Campus</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>What's the Good Word?</td>
+                                                        <td>4.00 PM – 5.00 PM</td>
+                                                        <td>Room No. 107</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Raaga (Eastern Vocals)</td>
+                                                        <td>6.00 PM - 7.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fashionista (Fashion Show)</td>
+                                                        <td>7.00 PM - 9.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>StarNite - MIDIVAL PUNDITZ Live</td>
+                                                        <td>9.00 PM - 11.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>DJ Night Live</td>
+                                                        <td>11.00 PM – 1.30 AM</td>
+                                                        <td>Stage</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+-->
+                                        </div>
+                                    </div>
+
+
+                                    <div class="item">
+                                        <div class="container text-center">
+                                            <h1 class="section-title">Schedule</h1>
+                                            <h2 class="section-subtitle">To be announced soon</h2>
+                                            <!--
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Event</th>
+                                                        <th>Time</th>
+                                                        <th>Venue</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td> Vini Quizzi Vici (Open Quiz)</td>
+                                                        <td> 2.00 PM - 4.00 PM</td>
+                                                        <td> Room No. 201</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Skinstrokes (Face Painting)</td>
+                                                        <td> 4.00 PM - 5.00 PM</td>
+                                                        <td>Pool of Justice</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td> Bank of Baroda presents Baroque (Western Vocals)</td>
+                                                        <td> 5.00 PM - 6.00 PM</td>
+                                                        <td> Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>60 Seconds to Fame</td>
+                                                        <td>6.00 PM - 7.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Dance Project (Group Dance)</td>
+                                                        <td>7.00 PM – 9.00 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Closing Ceremony</td>
+                                                        <td>9.00 PM - 9.30 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>StarNite - TBA</td>
+                                                        <td>9.30 PM – 11.30 PM</td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>DJ Night Live</td>
+                                                        <td>11.30 PM – 2.30 AM </td>
+                                                        <td>Main Stage</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+-->
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+
+                                <!--
+                                <a class="left carousel-control animated fadeInLeft" href="index.html#carousel" data-slide="prev-schedule"><img src="assets/img/slider/btn-prev.png" alt="previous button">
+                                </a>
+                                <a class="right carousel-control animated fadeInRight" href="index.html#carousel" data-slide="next-schedule"><img src="assets/img/slider/btn-next.png" alt="next button">
+                                </a>
+-->
+                            </div>
+
+                            <!--                            <div class="why-item-contact col-md-12 wow bounceIn" data-wow-offset="10"> <a href="assets/download/outlawed15schedule.pdf" class="btn btn-lg btn-common"><i class="fa fa-download"></i>Download Full Schedule</a> </div>-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- schedule section end -->
+
+        <!-- star nites section -->
+        <section id="starnites">
+            <div class="starnites-inner">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="row">&nbsp;</div>
+                        <h1 class="section-title">STARNITES</h1>
+                        <h2 class="section-subtitle">To be Announced</h2>
+                        <div class="row">&nbsp;</div>
+
+                        <!-- IF YOU WANT TEXT HERE, REMOVE THE <div class="row">&nbsp;</div> LINE ABOVE FOR MORE SPACE -->
+
+                    </div>
+
+
+                </div>
+        </section>
+
+        <!--starnites section end -->
+
+        <!--registration section-->
+        <!-- 
+IMPORTANT: 
+	DONT CHANGE THE NAME ATTRIBUTE OF ANY FIELD BELOW. DOING SO WILL CAUSE THAT FIELD TO BE NOT SENT. YOU MAY CHANGE THE PLACEHOLDER TEXT THOUGH 
+    -->
+        <section id="register">
+            <div class="contact-inner">
+                <div class="container text-center">
+                    <div class="row">
+                        <h1 class="section-title">Register for OUTLAWED</h1>
+                        <h2 class="section-subtitle">Registrations begin soon</h2>
+                        <form role="form" class="register-form text-center" method="post" style="opacity: 0.1; pointer-events:none">
+                            <div class="col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay=".5s">
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control requiredField" placeholder="Name of University/Institute" name="nameofuniversity">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control email" placeholder="Number of students in the contingent" name="numberofstudents">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control requiredField" placeholder="Number of students requiring accommodation" name="numberofstudentsaccomodation">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control" placeholder="Time and Date of arrival (optional)" name="timeanddatearrival">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control" placeholder="Time and Date of departure (optional)" name="timeanddatedeparture">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control" placeholder="Travel details: (Please specify train details for arrival and departure, etc.) (optional)" name="traveldetails">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control requiredField" placeholder="Contact Details (Phone & Email)(Contingent Leader and one other person)" name="contact">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <textarea rows="7" class="form-control requiredField" placeholder="List of events participating in the following format: (1) Event 1 - Name of Student 1 + Contact Details (Phone+Email); Name of Student 2 + Contact Details (Phone+Email); and so on. (2) Event 2 - Name of Student 1 + Contact Details (Phone+Email); Name of Student 2 + Contact Details (Phone+Email); and so on for more events." name="eventslist"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" id="submit-registration" class="btn btn-lg btn-common"><i class="fa fa-check-circle"></i> Submit Registration Form</button>
+                                <div id="success-register" style="color:#3d566e;"></div>
+                        </form>
+                        </div>
+                        <div class="col-md-5 col-md-offset-0 wow fadeInRight" data-wow-delay=".8s">
+
+                            <!--REGISTRATION TEXT AREA START -->
+
+                            <!--
+                            <h1>Registration Instructions</h1>
+                            <br>
+                            <p align="justify" style="font-size:18px">
+                                <ul>
+                                    <li>Registrations are now OPEN.</li>
+                                    <br>
+                                    <li>Deadline for Registration - January 16, 2015.</li>
+                                    <br>
+                                    <li>Registration Fee – Rs. 2,000 (per head).</li>
+                                    <br>
+                                    <li>Rs. 500 per head has to be paid in advance through NEFT/ Demand Draft/ Cash Deposit. Deadline for payment - January 22, 2015. The remaining Rs. 1500 have to be paid on arrival.</li>
+                                    <br>
+                                    <li>Registration Fee is a token amount in lieu of Accommodation (4 nights), Transport (Accommodation – Venue, on all 3 days) and all event registrations except for the Great Kolkata Race.</li>
+                                    <br>
+                                    <li>There is no separate registration fee for participating in events except for the Great Kolkata Race.</li>
+                                    <br>
+
+                                </ul>
+                            </p>
+-->
+                            <!-- REGISTRATION TEXT AREA END --->
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- sponsors Section -->
+        <!-- IMPORTANT
+		WHILE EDITING TEXT OF THIS SECTION, TWO SPONSORS WHICH COME ON THE SAME ROW SHOULD HAVE THE SAME NUMBER OF LINES OF TEXT. IF ONE IS TOO SHORT, THEN ADD A <br>&nbsp; TO ADD A NEW LINE.
+    IF THIS IS NOT DONE, THE 2-COLUMN LAYOUT WILL GLITCH IN MOST LAYOUTS.
+
+        THE IMAGES WILL APPEAR BIG IF ITS RESOLUTION IS BIG, IN THIS SECTION.
+        YOU MAY CHANGE THE TEXT, AS WELL AS THE IMAGE.
+        -->
+
+        <section id="sponsors">
+            <div class="sponsors-inner">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="section-title">Sponsors</h1>
+                        <h2 class="section-subtitle text-center">Last year's sponsors</h2>
+                        <div class="wow fadeInDown">
+                            <div class="container">
+                                <div class="col-md-12 col-md-12 col-sm-12 col-xs-12">
+                                    <br>
+                                    <img src="assets/img/sponsors/1_ongc.png" alt="client-1">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <img src="assets/img/sponsors/2_1_ntpc.png" alt="client-2">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <img src="assets/img/sponsors/2_2_raheja.png" alt="client-3">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <img src="assets/img/sponsors/2_3_airindia.png" alt="client-4">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/3_1_heromotocorp.png" alt="client-1">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/3_2_gail.png" alt="client-2">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/3_3_bob.png" alt="client-3">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/4_1_vodafone.png" alt="client-4">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/4_2_sail.png" alt="client-1">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/4_3_itc.png" alt="client-2">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/5_1_srei.png" alt="client-3">
+                                    <br>
+                                    <br>
+                                    <br> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/5_2_toi.png" alt="client-3"> </div>
+                                <div class="col-md-4 col-md-4 col-sm-6 col-xs-12">
+                                    <br>
+                                    <br>
+                                    <img src="assets/img/sponsors/5_3_powerfm.png" alt="client-4"> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- sponsors Section End -->
+
+        <!-- Team Section -->
+        <!-- LINKS TO PROFILES ARE WITHIN href="here" YOU MAY EDIT THOSE 
+	WHILE ADDING EMAILS, INCLUDE A mailto: BEFORE EACH. eg href="mailto:a@a.in"
+
+-->
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <h1 class="section-title">Coordinating Team</h1>
+                    <h2 class="section-subtitle">The ones behind the scene</h2>
+                    <div class=".col-md-6 .col-md-offset-3">
+                        <div class="team-member col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInRight"> <img src="assets/img/team/adithya.jpg" height="300" alt="member-1">
+                            <div class="member-desc">
+                                <h3>Adithya Iyer</h3>
+                                <h4>President</h4>
+                                <h4>+91-9051610426</h4>
+                            </div>
+                            <div class="social-team"> <a class="social" href="https://www.facebook.com/adithya.iyer.378" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="mailto:adithyaiyer.8@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a> </div>
+                        </div>
+                        <div class="team-member col-lg-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-delay=".3s"> <img src="assets/img/team/anirudh.JPG" alt="member-2">
+                            <div class="member-desc">
+                                <h3>Anirudh Sudarshan</h3>
+                                <h4>Vice President</h4>
+                                <h4>+91-9088377300</h4>
+                            </div>
+                            <div class="social-team"> <a class="social" href="https://www.facebook.com/anirud.sudarsan" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/117787027991957977" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:uniq.ani@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a> </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="team-member col-lg-4 col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInRight" data-wow-delay=".3s"> <img src="assets/img/team/muqeet.JPG" alt="member-3">
+                            <div class="member-desc">
+                                <h3>Muqeet Drabu</h3>
+                                <h4>Chief Coordinator</h4>
+                                <h4>+91-9674013375</h4>
+                            </div>
+                            <div class="social-team"> <a class="social" href="https://www.facebook.com/muqeetdrabu" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/+MuqeetDrabu" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:muqeetdrabu@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a> </div>
+                        </div>
+                        <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".5s"> <img src="assets/img/team/dheeraj.jpg" q alt="member-4">
+                            <div class="member-desc">
+                                <h3>Dheeraj 
+					<br>Krishnegowda</h3>
+                                <h4>Fest
+					<br>Coordinator </h4>
+                                <h4>+91-9804108078</h4>
+                            </div>
+                            <div class="social-team"> <a class="social" href="https://www.facebook.com/Dheeraj.Krishnegowda" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/107438515348970927" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:rc2901.dheerajk@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a> </div>
+                        </div>
+                        <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".7s"> <img src="assets/img/team/varun.JPG" alt="member-1">
+                            <div class="member-desc">
+                                <h3>Varun 
+					<br>Ramdas</h3>
+                                <h4>Fest 
+					<br>Coordinator</h4>
+                                <h4>+91-8697084535</h4>
+                            </div>
+                            <div class="social-team"> <a class="social" href="https://www.facebook.com/varunramdas.va2" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/107960679081639700331/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:varunramdas@nujs.edu" target="_blank"><i class="fa fa-envelope"></i></a> </div>
+                        </div>
+                        <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".9s"> <img src="assets/img/team/pratik.jpg" alt="member-2">
+                            <div class="member-desc">
+                                <h3>Prateek 
+							<br>Ranjan Das </h3>
+                                <h4>Fest 
+							<br>Coordinator</h4>
+                                <h4>+91-9748046195</h4>
+                            </div>
+                            <div class="social-team"> <a class="social" href="https://www.facebook.com/prd93" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/u/0/116875679490573744162" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:pratikrdas@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".3s"> <img src="assets/img/team/anushree.jpg" alt="member-3">
+                        <div class="member-desc">
+                            <h3> Anushree  
+							<br>Malviya</h3>
+                            <h4>Coordinator <br>(Sponsorship)</h4>
+                            <h4>+91-9830030879</h4>
+
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://www.facebook.com/anushreemalaviya12" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/100995944261024251473/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:anushreemalaviya@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".5s"> <img src="assets/img/team/mustafa.JPG" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Mustafa  
+							<br>Rasheed</h3>
+                            <h4> Fest<br>Secretary</h4>
+                            <h4>+91-8017413009</h4>
+
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://plus.google.com/u/0/114464364911766880081/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:mustafarasheed09@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".7s"> <img src="assets/img/team/satya.JPG" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Satya  
+							<br>Jha</h3>
+                            <h4>Fest<br>Secretary</h4>
+                            <h4>+91-8337030969</h4>
+
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://www.facebook.com/satya.jha" target="_blank"><i class="fa fa-facebook"></i></a> <i class="fa fa-google-plus"></i>
+                            </a> <a class="social" href="mailto: jhasatya@hotmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".9s"> <img src="assets/img/team/abhishek.JPG" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Abhishek  
+							<br>Mohanty</h3>
+                            <h4>Treasurer</h4>
+                            <h4>+91-9038742576</h4>
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://www.facebook.com/Abhisek108" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/u/0/105086664439937837888" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:abhisek108@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".3s"> <img src="assets/img/team/rahul.JPG" alt="member-2">
+                        <div class="member-desc">
+                            <h3>Rahul 
+							<br>Chandramouli</h3>
+                            <h4>Treasurer</h4>
+                            <h4>+91-9007350858</h4>
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://www.facebook.com/crahulv" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/u/0/111396337471512762455" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto: crahulv@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".5s"> <img src="assets/img/team/anant.JPG" alt="member-3">
+                        <div class="member-desc">
+                            <h3>Anant 
+							<br>Balaji</h3>
+                            <h4>Events Head</h4>
+                            <h4>+91-8420884145</h4>
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://www.facebook.com/ananth.balaji" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/117787027991957977398/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:ananth.chennai04@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".7s"> <img src="assets/img/team/ambika.JPG" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Ambika  
+							<br>Sahai</h3>
+                            <h4>Content Head</h4>
+                            <h4>+91-9007033093</h4>
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://www.facebook.com/sahai.ambika" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/117787027991957977398/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:ambikasahai94@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".9s"> <img src="assets/img/team/sasha.JPG" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Sasha  
+							<br>Malpani</h3>
+                            <h4>Liason Head</h4>
+                            <h4>+91-8479956010</h4>
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://plus.google.com/111060317546017522286/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:saashamalpani28@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".9s"> <img src="assets/img/team/krishanu.jpg" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Krishanu   
+							<br>Roy</h3>
+                            <h4>Creative Head</h4>
+                            <h4>+91-9903118176</h4>
+                        </div>
+                        <div class="social-team"><a class="social" href="https://www.facebook.com/krishanu.roy.5" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/u/0/110346964719334967971/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:krishanuroy.nujs@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".9s"> <img src="assets/img/team/ahaan.png" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Ahaan   
+							<br>Mohan</h3>
+                            <h4>Design Head</h4>
+                            <h4>+91-9007861399</h4>
+                        </div>
+                        <div class="social-team"><a class="social" href="https://www.facebook.com/Ahaan" target="_blank"><i class="fa fa-facebook"></i></a> <a class="social" href="https://plus.google.com/+AhaanMohan" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:aahanmohan@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="team-member col-lg-2 col-md-2 col-sm-4 col-xs-8 wow fadeInRight" data-wow-delay=".9s"> <img src="assets/img/team/arjun.JPG" alt="member-4">
+                        <div class="member-desc">
+                            <h3>Arjun   
+							Agarwal</h3>
+                            <h4>Public Relations<br>Head</h4>
+                            <h4>+91-8013974687</h4>
+                        </div>
+                        <div class="social-team"> <a class="social" href="https://www.facebook.com/arjun.agarwal.796" target="_blank"><i class="fa fa-facebook"></i></a><a class="social" href="https://plus.google.com/u/0/+ArjunAgarwalNUJS/posts" target="_blank"><i class="fa fa-google-plus"></i></a> <a class="social" href="mailto:arjunag@nujs.edu" target="_blank"><i class="fa fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Team Section End -->
+
+        <!-- Conatct Section -->
+        <!-- dont change name of any of the fields here, you may change the placeholder -->
+        <section id="contact">
+            <div class="contact-inner">
+                <div class="container text-center">
+                    <div class="row">
+                        <h1 class="section-title">Contact</h1>
+                        <h2 class="section-subtitle">Love to hear from You</h2>
+                        <!--<div class="col-md-12 wow fadeInRight"> <a class="social" href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a> <a class="social" href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a> <a class="social" href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a> <a class="social" href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a> <a class="social" href="#" target="_blank"><i class="fa fa-dribbble fa-2x"></i></a> <a class="social" href="#" target="_blank"><i class="fa fa-github fa-2x"></i></a> </div>-->
+                        <div class="col-md-12 contact-info wow fadeInDown" data-wow-delay=".2s">
+                            <p><i class="fa fa-map-marker"></i> The National University of Juridical Sciences,12 LB Block, Sector 3, Salt lake City, Calcutta, India 700098</p>
+                            <p><i class="fa fa-envelope"></i> outlawed@nujs.edu</p>
+                        </div>
+                        <form role="form" class="contact-form" method="post">
+                            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".5s">
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control" placeholder="Name" name="name">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="email" class="form-control email" placeholder="Email" name="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <input type="text" class="form-control requiredField" placeholder="Subject" name="subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 wow fadeInRight" data-wow-delay=".8s">
+                                <div class="form-group">
+                                    <div class="controls">
+                                        <textarea rows="7" class="form-control" placeholder="Message" name="message"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" id="submit" class="btn btn-lg btn-border"><i class="fa fa-check-circle"></i> Send</button>
+                                <div id="success" style="color:#fff;"></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section End-->
+
+        <!-- Copyright Section-->
+        <!-- DONT EDIT THIS SECTION -->
+        <section id="copyright">
+            <div class="copyright-inner">
+                <div class="container">
+                    <div class="col-md-12">
+                        <p style="font-weight:bold">Developed by <a href="http://pixelblenders.com/" target="_blank">PixelBlenders</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Copyright Section End-->
+        <!-- <script>
+			//HERE IS WHERE YOU CHANGE THE DATE FOR THE COUNTER IN HOMEPAGE
+			$(".ccounter").ccountdown(2015,1,31,'8:00');
+			
+		</script> -->
+
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!--Text Rotator-->
+        <script src="assets/js/text-rotator.js"></script>
+        <!--WOW Scroll Spy-->
+        <script src="assets/js/wow.js"></script>
+        <!--Smooth Scroller-->
+        <script src="assets/js/smooth-scroll.js"></script>
+        <!-- Nice Scroll -->
+        <script src="assets/js/nicescroll.js"></script>
+        <!-- Light Box -->
+        <script src="assets/js/lightbox.min.js"></script>
+        <!-- Circles -->
+        <script src="assets/js/countUp.min.js"></script>
+        <!-- All JS plugin Triggers -->
+        <script src="assets/js/main.js"></script>
+    </divhider>
+</body>
+
+</html>

@@ -149,6 +149,7 @@ a:hover {
 
 .navbar {
     margin-bottom: 0;
+    z-index: 99999;
 }
 
 .navbar li {
@@ -1070,4 +1071,23 @@ a:hover {
 
 .why-item-text h2 {
     text-transform: uppercase;
+}
+
+.you-tube-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: all;
+    z-index: 999;
+}
+
+.you-tube-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+
+    padding-top: 25px;
+    height: 0;
 }

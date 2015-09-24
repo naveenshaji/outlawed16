@@ -1064,13 +1064,13 @@ a:hover {
 }
 
 #team .col-md-4 img {
-    height: 300px;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
 
 #team .col-md-3 img {
-    height: 300px;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }

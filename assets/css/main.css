@@ -1084,9 +1084,12 @@ a:hover {
     top: 15%;
     left: 25%;
     width: 50%;
-    height: 50%;
     pointer-events: all;
     z-index: 999;
+}
+
+.you-tube-item {
+    padding-top: 15%;
 }
 
 .you-tube-wrapper {
@@ -1096,5 +1099,4 @@ a:hover {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 25px;
-    height: 0;
 }

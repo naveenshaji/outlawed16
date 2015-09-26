@@ -1089,4 +1089,6 @@ a:hover {
 
 .you-tube-item {}
 
-.you-tube-wrapper {}
+.you-tube-wrapper {
+    padding-top: 15%;
+}
